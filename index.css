@@ -1,1 +1,60 @@
 /* Put your style information here! */
+
+body{
+    margin: 0;
+    background-color: #222;
+}
+
+.banner{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.item{
+    background-color:whitesmoke;
+
+    
+}
+
+.screenshot img{
+    max-height: 400px;
+    max-width: 600px;
+}
+
+.lo-fi img{
+    max-height: 400px;
+    max-width: 600px;
+
+}
+
+.lo-fi, .hi-fi{
+    overflow: scroll;
+}
+
+.hi-fi img{
+    max-height: 400px;
+    max-width: 600px;
+    margin: 5px;
+}
+
+.style-guide img{
+    max-height: 400px;
+    max-width: 600px;
+}
+
+
+.navbar{ background:#F97300;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}

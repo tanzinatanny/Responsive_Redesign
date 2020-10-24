@@ -2,13 +2,242 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>Responsive Redesign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
   <body>
     <!-- TODO: put your HTML code here! -->
+
+    <!--Jumbotron Banner-->
+    <!--Banner-->
+    <div class="banner col-12">
+      <h1>Responsive Redesign</h1>
+      <p>Redesigning a local pizza store's website which is the only good pizza store in the town of uptown NY. I am focusing on redesigning the landing page only. </p>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <!--hamburger menu-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <!--ml-auto makes the navbar to the right in big screen-->
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#problems">Problems</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#accessibility">Accessibility</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lo-fi">Lo-fi Wireframing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hi-fi">Hi-fi Wireframing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#style-guide">Style Guide</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#redesign">Redesigned Webpage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#observation">Observation</a>
+            </li>
+          </ul>
+        </div>
+      </div>   
+    </nav>
+
+  
+
+
+      <!--Part:1-->
+      <div class="container-fluid components">
+
+        <div class="item p-3 my-3 text-center" id="home">
+          <h1>Website to Redesign</h1>
+          <hr>
+
+          <p>A local pizza store in Hamilton, NY, which is very popular and the only pizza store in a large area. 
+            Their website is <a href="http://www.akaslices.com"> akaslices </a></p>
+          <br>
+          <div class="screenshot">
+            <img src="images/aka-scshot.png" alt="screenshot">
+          </div>
+          
+          
+        </div>
+
+        <div class="item p-3 my-3 text-center" id="problems">
+          <h1>Problems</h1>
+          <hr>
+
+          <div class="row">
+          
+            <div class="col-md-4">
+
+              <h6>Usability</h6>
+              <ul>
+                <li>Ambiguous business name, solved by redesigning the banner and logo.</li>
+                <li>Visual noise and low-quiality images, solved by creating a centered carousel with higher quality images.</li>
+              </ul>
+          
+                
+            </div>
+          
+            <div class="col-md-4">
+              <h6>Learnability</h6>
+              <ul>
+                <li>Confusing Navbar that scrolls away, solved by sticky navbar.</li>
+                <li>Unclear Call to action button, solved by clear CTA buttons.</li>
+              </ul>
+            </div>
+          
+            <div class="col-md-4">
+              <h6>Memorability</h6>
+              <ul>
+                <li>Social Media Icons not taking to their social media pages, solved by clearly grouping them linking actual pages.</li>
+                <li>Location map is just an image, does not take to the actual location address, solved by linking google maps in button.</li>
+              </ul>
+              
+            </div>
+          
+          </div>
+          
+        </div>
+        
+        <div class="item p-3 my-3 text-center" id="accessibility">
+          <h1>Accessibility</h1>
+          <hr>
+          <p>WAVE API could be used by the business for integrating better accessibility</p>
+        </div>
+
+        <div class="item p-3 my-3">
+          <h1 class="text-center">Low-Fidelity Wireframing</h1>
+          <hr>
+          <div class="row lo-fi">
+        
+            <div class="col-md-4">
+        
+              <h6>Mobile</h3>
+        
+                <img src="images/bal-mob.png" alt="wireframe-mobile"  />
+            </div>
+        
+            <div class="col-md-4">
+              <h6>Tablet</h6>
+              <img src="images/bal-tablet.png" alt="wireframe-tablet"  />
+            </div>
+        
+            <div class="col-md-4">
+              <h6>Desktop</h6>
+              <img src="images/bal-desk.png" alt="wireframe-desktop"  />
+            </div>
+        
+          </div>
+        </div>
+
+        <div class="item p-3 my-3">
+          <h1 class="text-center">High-Fidelity Wireframing</h1>
+          <hr>
+          <div class="row hi-fi text-center">
+        
+            <div class="col-md-4">
+        
+              <h6>Mobile</h3>
+        
+                <img src="images/figma-mob.png" alt="wireframe-mobile" />
+            </div>
+        
+            <div class="col-md-4">
+              <h6>Tablet</h6>
+              <img src="images/figma-tablet.png" alt="wireframe-tablet" />
+            </div>
+        
+            <div class="col-md-4">
+              <h6>Desktop</h6>
+              <img src="images/figma-desktop.png" alt="wireframe-desktop" />
+            </div>
+        
+          </div>
+        </div>
+
+        <div class="item p-3 my-3 text-center" id="style-guide">
+          <h1>Style Guide</h1>
+          <hr>
+          <div class="style-guide">
+            <img src="images/style-guide.png" alt="style-guide">
+          </div>
+          
+        </div>
+
+        <div class="item p-3 my-3 text-center" id="redesign">
+          <h1>Redesigned Webpage</h1>
+          <hr>
+          <br>
+            <a href="https://glacial-river-60261.herokuapp.com/">Redesigned Webpage of New York Pizzaria</a>
+          
+        </div>
+
+        <div class="item p-3 my-3 text-center" id="observation">
+          <h1>Observation</h1>
+          <hr>
+          <p>The website's landing page is redesigned making it fully responsive. The necessary navigation utilities are added to go to other pages and remove 
+            much information from the home page. All the problems initially detected were addressed to find proper solution. 
+          </p>
+        </div>      
+
+
+      </div>
+
+      
+
+    <footer class="py-3 bg-dark">
+      <div class="container footer">
+        <p class="m-0 text-center text-white">Used Balsamique and Figma </p>
+      </div>
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  </div>
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
   </body>
 </html>
